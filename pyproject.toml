@@ -24,3 +24,6 @@ only-include = ["server.py"]
 
 [project.scripts]
 meok-cra-annex-iv-classifier-mcp = "server:main"
+
+[tool.mcp]
+mcpName = "io.github.CSOAI-ORG/meok-cra-annex-iv-classifier-mcp"
