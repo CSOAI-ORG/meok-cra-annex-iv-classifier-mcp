@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "meok-cra-annex-iv-classifier-mcp"
+version = "1.0.1"
+description = "EU Cyber Resilience Act product classifier MCP. Classifies PDEs into CRA hierarchy (default / Class I / Class II / Annex IV per Implementing Reg 2025/2392), audits the 15 Annex I cybersecurity requirements, generates Annex VIII technical docs skeleton, emits HMAC-signed classification certs. Built for 11 Dec 2027 enforcement. By MEOK AI Labs."
+license = {file = "LICENSE"}
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "MEOK AI Labs", email = "nicholas@meok.ai"}]
+keywords = ["mcp", "cra", "cyber-resilience-act", "annex-iv", "annex-iii", "regulation-2024-2847", "implementing-2025-2392", "iot-security", "products-with-digital-elements", "pde", "smart-meter", "secure-element", "signed-attestation", "meok-ai-labs"]
+classifiers = ["Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License", "Operating System :: OS Independent", "Topic :: Security"]
+dependencies = ["mcp>=1.0.0"]
+
+[project.urls]
+Homepage = "https://meok.ai/meok-cra-annex-iv-classifier-mcp"
+Repository = "https://github.com/CSOAI-ORG/meok-cra-annex-iv-classifier-mcp"
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
+only-include = ["server.py"]
+
+[project.scripts]
+meok-cra-annex-iv-classifier-mcp = "server:main"
