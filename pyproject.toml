@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "meok-cra-annex-iv-classifier-mcp"
-version = "1.0.1"
+version = "1.0.2"
 description = "EU Cyber Resilience Act product classifier MCP. Classifies PDEs into CRA hierarchy (default / Class I / Class II / Annex IV per Implementing Reg 2025/2392), audits the 15 Annex I cybersecurity requirements, generates Annex VIII technical docs skeleton, emits HMAC-signed classification certs. Built for 11 Dec 2027 enforcement. By MEOK AI Labs."
 license = {file = "LICENSE"}
 readme = "README.md"
