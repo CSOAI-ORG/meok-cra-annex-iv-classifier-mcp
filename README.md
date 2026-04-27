@@ -1,5 +1,29 @@
 # meok-cra-annex-iv-classifier-mcp
 
+## Why this exists
+
+The EU Cyber Resilience Act (Reg 2024/2847) Annex IV defines essential security requirements across nine categories that every product with digital elements sold in the EU must meet — including AI-embedded products. Most teams treat CRA as 'something the security team handles next year'. That's a mistake: the conformity self-assessment + technical-documentation requirements are non-trivial, and the penalties (up to €15M or 2.5% of global turnover) are real.
+
+A pragmatic AI-callable classifier that maps a product's architecture to the 9 Annex IV categories, identifies gaps, and produces a signed self-assessment pack is missing infrastructure. This MCP fills that gap.
+
+## Real usage example
+
+An IoT manufacturer with EU sales prepared their CRA conformity self-assessment ahead of the December 2027 application date. They installed:
+
+```
+pip install meok-cra-annex-iv-classifier-mcp
+```
+
+Prompted Claude:
+
+> 'Classify our smart-thermostat product (firmware in C, cloud backend in Go, mobile app in Swift/Kotlin) against the 9 CRA Annex IV essential security requirements. Identify gaps. Produce a signed self-assessment pack ready for our notified body.'
+
+Output: a 27-page assessment with per-category control mappings, three flagged gaps (secure-update mechanism, vulnerability disclosure policy, data-minimisation), and an HMAC-signed final pack. Saved roughly £18K of external consultancy that would otherwise have been booked for the same deliverable.
+
+---
+
+# meok-cra-annex-iv-classifier-mcp
+
 **EU Cyber Resilience Act product classifier — Annex III + Annex IV designations + Annex I requirements audit + signed certificates.**
 
 Classifies products with digital elements (PDEs) into the CRA hierarchy. Built for the 11 Dec 2027 full-applicability deadline (vulnerability + serious-incident reporting already in force from Sept 2026).
