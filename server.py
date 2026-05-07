@@ -229,6 +229,15 @@ def classify_product(
     When NOT to use:
         Do not use as a substitute for qualified legal counsel. This tool
         provides technical compliance guidance, not legal advice.
+
+    Args:
+        product_name (str): The product name to analyze or process.
+        product_description (str): The product description to analyze or process.
+        has_remote_data_processing (bool): The has remote data processing to analyze or process.
+        intended_for_consumer_use (bool): The intended for consumer use to analyze or process.
+        intended_for_critical_infrastructure (bool): The intended for critical infrastructure to analyze or process.
+        api_key (str): The api key to analyze or process.
+
     Behavioral Transparency:
         - Side Effects: This tool is read-only and produces no side effects. It does not modify
           any external state, databases, or files. All output is computed in-memory and returned
@@ -304,7 +313,12 @@ def audit_essential_requirements(
     When NOT to use:
         Do not use as a substitute for qualified legal counsel. This tool
         provides technical compliance guidance, not legal advice.
-    """
+    
+
+    Args:
+        product_name (str): The product name to analyze or process.
+        requirements_satisfied_csv (str): The requirements satisfied csv to analyze or process.
+        api_key (str): The api key to analyze or process."""
     allowed, msg, tier = check_access(api_key)
     if not allowed:
         return json.dumps({"error": msg, "upgrade_url": STRIPE_199})
@@ -348,6 +362,11 @@ def generate_doc_template(class_key: str = "default", api_key: str = "") -> str:
     When NOT to use:
         Do not use as a substitute for qualified legal counsel. This tool
         provides technical compliance guidance, not legal advice.
+
+    Args:
+        class_key (str): The class key to analyze or process.
+        api_key (str): The api key to analyze or process.
+
     Behavioral Transparency:
         - Side Effects: This tool is read-only and produces no side effects. It does not modify
           any external state, databases, or files. All output is computed in-memory and returned
@@ -453,6 +472,16 @@ def sign_classification_cert(
     When NOT to use:
         Do not use as a substitute for qualified legal counsel. This tool
         provides technical compliance guidance, not legal advice.
+
+    Args:
+        entity_name (str): The entity name to analyze or process.
+        product_name (str): The product name to analyze or process.
+        classification_class_key (str): The classification class key to analyze or process.
+        annex_i_score (float): The annex i score to analyze or process.
+        findings_csv (str): The findings csv to analyze or process.
+        api_key (str): The api key to analyze or process.
+        email (str): The email to analyze or process.
+
     Behavioral Transparency:
         - Side Effects: This tool is read-only and produces no side effects. It does not modify
           any external state, databases, or files. All output is computed in-memory and returned
