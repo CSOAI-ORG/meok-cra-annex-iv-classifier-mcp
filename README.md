@@ -1,3 +1,5 @@
+[![meok-cra-annex-iv-classifier-mcp MCP server](https://glama.ai/mcp/servers/CSOAI-ORG/meok-cra-annex-iv-classifier-mcp/badges/card.svg)](https://glama.ai/mcp/servers/CSOAI-ORG/meok-cra-annex-iv-classifier-mcp)
+
 [![PyPI Downloads](https://img.shields.io/pypi/dw/meok-cra-annex-iv-classifier-mcp?label=downloads%2Fweek&color=gold)](https://pypi.org/project/meok-cra-annex-iv-classifier-mcp/) [![PyPI Version](https://img.shields.io/pypi/v/meok-cra-annex-iv-classifier-mcp?color=blue)](https://pypi.org/project/meok-cra-annex-iv-classifier-mcp/) [![License: MIT](https://img.shields.io/badge/license-MIT-green)](https://github.com/CSOAI-ORG/meok-cra-annex-iv-classifier-mcp/blob/main/LICENSE)
 
 # meok-cra-annex-iv-classifier-mcp
