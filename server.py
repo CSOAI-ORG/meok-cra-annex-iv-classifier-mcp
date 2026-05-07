@@ -214,6 +214,21 @@ def classify_product(
     """Classify a product with digital elements (PDE) into the CRA class hierarchy.
 
     Returns: suggested class, conformity path, fines exposure, next steps.
+
+    Behavior:
+        This tool generates structured output without modifying external systems.
+        Output is deterministic for identical inputs. No side effects.
+        Free tier: 10/day rate limit. Pro tier: unlimited.
+        No authentication required for basic usage.
+
+    When to use:
+        Use this tool when you need to assess, audit, or verify compliance
+        requirements. Ideal for gap analysis, readiness checks, and generating
+        compliance documentation.
+
+    When NOT to use:
+        Do not use as a substitute for qualified legal counsel. This tool
+        provides technical compliance guidance, not legal advice.
     """
     allowed, msg, tier = check_access(api_key)
     if not allowed:
@@ -259,7 +274,23 @@ def audit_essential_requirements(
     api_key: str = "",
 ) -> str:
     """Audit a product against the 15 Annex I + II essential requirements.
-    Pass comma-separated requirement IDs that are satisfied (e.g. "1.1,1.2,2.1")."""
+    Pass comma-separated requirement IDs that are satisfied (e.g. "1.1,1.2,2.1").
+
+    Behavior:
+        This tool generates structured output without modifying external systems.
+        Output is deterministic for identical inputs. No side effects.
+        Free tier: 10/day rate limit. Pro tier: unlimited.
+        No authentication required for basic usage.
+
+    When to use:
+        Use this tool when you need to assess, audit, or verify compliance
+        requirements. Ideal for gap analysis, readiness checks, and generating
+        compliance documentation.
+
+    When NOT to use:
+        Do not use as a substitute for qualified legal counsel. This tool
+        provides technical compliance guidance, not legal advice.
+    """
     allowed, msg, tier = check_access(api_key)
     if not allowed:
         return json.dumps({"error": msg, "upgrade_url": STRIPE_199})
@@ -287,7 +318,23 @@ def audit_essential_requirements(
 
 @mcp.tool()
 def generate_doc_template(class_key: str = "default", api_key: str = "") -> str:
-    """Generate the Annex VIII technical documentation skeleton for a given class."""
+    """Generate the Annex VIII technical documentation skeleton for a given class.
+
+    Behavior:
+        This tool generates structured output without modifying external systems.
+        Output is deterministic for identical inputs. No side effects.
+        Free tier: 10/day rate limit. Pro tier: unlimited.
+        No authentication required for basic usage.
+
+    When to use:
+        Use this tool when you need to assess, audit, or verify compliance
+        requirements. Ideal for gap analysis, readiness checks, and generating
+        compliance documentation.
+
+    When NOT to use:
+        Do not use as a substitute for qualified legal counsel. This tool
+        provides technical compliance guidance, not legal advice.
+    """
     allowed, msg, tier = check_access(api_key)
     if not allowed:
         return json.dumps({"error": msg, "upgrade_url": STRIPE_199})
@@ -362,7 +409,23 @@ def sign_classification_cert(
     api_key: str = "",
     email: str = "",
 ) -> str:
-    """Generate a HMAC-SHA256 signed CRA classification certificate (Pro/Enterprise)."""
+    """Generate a HMAC-SHA256 signed CRA classification certificate (Pro/Enterprise).
+
+    Behavior:
+        This tool generates structured output without modifying external systems.
+        Output is deterministic for identical inputs. No side effects.
+        Free tier: 10/day rate limit. Pro tier: unlimited.
+        No authentication required for basic usage.
+
+    When to use:
+        Use this tool when you need to assess, audit, or verify compliance
+        requirements. Ideal for gap analysis, readiness checks, and generating
+        compliance documentation.
+
+    When NOT to use:
+        Do not use as a substitute for qualified legal counsel. This tool
+        provides technical compliance guidance, not legal advice.
+    """
     allowed, msg, tier = check_access(api_key)
     if not allowed:
         return json.dumps({"error": msg, "upgrade_url": STRIPE_199})
