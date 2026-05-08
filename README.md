@@ -1,35 +1,3 @@
-[![meok-cra-annex-iv-classifier-mcp MCP server](https://glama.ai/mcp/servers/CSOAI-ORG/meok-cra-annex-iv-classifier-mcp/badges/score.svg)](https://glama.ai/mcp/servers/CSOAI-ORG/meok-cra-annex-iv-classifier-mcp)
-[![MCP Registry](https://img.shields.io/badge/MCP_Registry-Published-green)](https://registry.modelcontextprotocol.io)
-[![PyPI](https://img.shields.io/pypi/v/meok-cra-annex-iv-classifier-mcp)](https://pypi.org/project/meok-cra-annex-iv-classifier-mcp/)
-
-[![meok-cra-annex-iv-classifier-mcp MCP server](https://glama.ai/mcp/servers/CSOAI-ORG/meok-cra-annex-iv-classifier-mcp/badges/card.svg)](https://glama.ai/mcp/servers/CSOAI-ORG/meok-cra-annex-iv-classifier-mcp)
-
-[![PyPI Downloads](https://img.shields.io/pypi/dw/meok-cra-annex-iv-classifier-mcp?label=downloads%2Fweek&color=gold)](https://pypi.org/project/meok-cra-annex-iv-classifier-mcp/) [![PyPI Version](https://img.shields.io/pypi/v/meok-cra-annex-iv-classifier-mcp?color=blue)](https://pypi.org/project/meok-cra-annex-iv-classifier-mcp/) [![License: MIT](https://img.shields.io/badge/license-MIT-green)](https://github.com/CSOAI-ORG/meok-cra-annex-iv-classifier-mcp/blob/main/LICENSE)
-
-# meok-cra-annex-iv-classifier-mcp
-
-## Why this exists
-
-The EU Cyber Resilience Act (Reg 2024/2847) Annex IV defines essential security requirements across nine categories that every product with digital elements sold in the EU must meet — including AI-embedded products. Most teams treat CRA as 'something the security team handles next year'. That's a mistake: the conformity self-assessment + technical-documentation requirements are non-trivial, and the penalties (up to €15M or 2.5% of global turnover) are real.
-
-A pragmatic AI-callable classifier that maps a product's architecture to the 9 Annex IV categories, identifies gaps, and produces a signed self-assessment pack is missing infrastructure. This MCP fills that gap.
-
-## Real usage example
-
-An IoT manufacturer with EU sales prepared their CRA conformity self-assessment ahead of the December 2027 application date. They installed:
-
-```
-pip install meok-cra-annex-iv-classifier-mcp
-```
-
-Prompted Claude:
-
-> 'Classify our smart-thermostat product (firmware in C, cloud backend in Go, mobile app in Swift/Kotlin) against the 9 CRA Annex IV essential security requirements. Identify gaps. Produce a signed self-assessment pack ready for our notified body.'
-
-Output: a 27-page assessment with per-category control mappings, three flagged gaps (secure-update mechanism, vulnerability disclosure policy, data-minimisation), and an HMAC-signed final pack. Saved roughly £18K of external consultancy that would otherwise have been booked for the same deliverable.
-
----
-
 # meok-cra-annex-iv-classifier-mcp
 
 **EU Cyber Resilience Act product classifier — Annex III + Annex IV designations + Annex I requirements audit + signed certificates.**
@@ -77,6 +45,12 @@ Use code **`MEOKEAT`** for 25% off the first 3 months.
 - Implementing Regulation (EU) 2025/2392 (first Annex III/IV designations)
 - ENISA CRA implementation guidance
 
+## Full Compliance Platform
+
+CRA is one regulation. **[councilof.ai](https://councilof.ai)** covers the complete EU stack — CRA, EU AI Act, DORA, NIS2, CSRD — from £29/mo.
+
+→ **[Get started at councilof.ai](https://councilof.ai)**
+
 ## Related MEOK MCPs
 
 - [`cra-compliance-mcp`](https://pypi.org/project/cra-compliance-mcp/) — full CRA compliance audit
@@ -85,14 +59,6 @@ Use code **`MEOKEAT`** for 25% off the first 3 months.
 
 ## License
 
-MIT — MEOK AI Labs, 2026.
+MIT — [MEOK AI Labs](https://meok.ai), 2026.
 
----
-
-## Distribution channels
-
-- **PyPI**: `pip install meok-cra-annex-iv-classifier-mcp` (this package)
-- **Apify Store** (Pay-Per-Event): https://apify.com/knowing_yucca/meok-cra-classifier
-- **GitHub** (source): https://github.com/CSOAI-ORG/MEOK-LABS/tree/main/mcps/meok-cra-annex-iv-classifier-mcp
-- **Sponsor**: https://github.com/sponsors/CSOAI-ORG · [Pro £79/mo →](https://buy.stripe.com/eVq9AV4O87sudMF42k8k839)
 <!-- mcp-name: io.github.CSOAI-ORG/meok-cra-annex-iv-classifier-mcp -->
