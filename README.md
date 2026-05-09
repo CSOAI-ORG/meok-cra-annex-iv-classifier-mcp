@@ -57,6 +57,8 @@ CRA is one regulation. **[councilof.ai](https://councilof.ai)** covers the compl
 - [`ai-bom-mcp`](https://pypi.org/project/ai-bom-mcp/) — SBOM generation for Annex VIII
 - [`meok-attestation-verify`](https://pypi.org/project/meok-attestation-verify/) — verify signed certs
 
+> **If this tool helps your compliance workflow, please [star this repo](https://github.com/CSOAI-ORG/meok-cra-annex-iv-classifier-mcp/stargazers)** — it helps other teams find it.
+
 ## License
 
 MIT — [MEOK AI Labs](https://meok.ai), 2026.
