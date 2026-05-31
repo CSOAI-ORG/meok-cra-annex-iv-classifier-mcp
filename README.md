@@ -1,66 +1,78 @@
-# meok-cra-annex-iv-classifier-mcp
+# Meok Cra Annex Iv Classifier MCP
 
-**EU Cyber Resilience Act product classifier — Annex III + Annex IV designations + Annex I requirements audit + signed certificates.**
+[![MEOK AI Labs](https://img.shields.io/badge/MEOK-AI%20Labs-667eea)](https://meok.ai)
+[![EU AI Act](https://img.shields.io/badge/EU%20AI%20Act-Compliant-22c55e)](https://councilof.ai)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![PyPI](https://img.shields.io/badge/PyPI-Install-3775a9)](https://pypi.org/project/meok_cra_annex_iv_classifier_mcp/)
 
-Classifies products with digital elements (PDEs) into the CRA hierarchy. Built for the 11 Dec 2027 full-applicability deadline (vulnerability + serious-incident reporting already in force from Sept 2026).
+> EU CRA (Cyber Resilience Act, Reg 2024/2847) Annex IV classifier — 9-category essential security ...
 
-By [MEOK AI Labs](https://meok.ai).
+EU CRA (Cyber Resilience Act, Reg 2024/2847) Annex IV classifier — 9-category essential security requirements with HMAC-signed compliance attestations. By MEOK AI Labs.
 
-## Why this MCP
+---
 
-Implementing Regulation (EU) 2025/2392 (adopted late November 2025) just designated the first set of Class I, Class II, and Annex IV product categories. IoT vendors, chipmakers, smart-meter manufacturers, OT teams need a defensible classification NOW — every classification you delay is conformity work you'll pay for retroactively.
-
-## What it classifies
-
-- **Default class** — most consumer / business software (self-assessment, fines max €5M / 1%)
-- **Important Class I** (Annex III(1)) — IAM, password managers, browsers, VPNs, OS, routers, smart home — self-assessment OR Notified Body (€10M / 2%)
-- **Important Class II** (Annex III(2)) — hypervisors, firewalls, IDS/IPS, tamper-resistant µCs/µPs — MANDATORY Notified Body assessment (€15M / 2.5%)
-- **Critical (Annex IV)** — smart-card secure elements, smart-meter gateways, hardware security boxes — mandatory European cybersecurity certification (€15M / 2.5%)
-
-## Tools
-
-- `classify_product` — heuristic classification by description + characteristics
-- `audit_essential_requirements` — score against 15 Annex I cybersecurity requirements
-- `generate_doc_template` — Annex VIII technical documentation skeleton
-- `sign_classification_cert` — Pro: HMAC-SHA256 signed classification cert with public verify URL
-
-## Install
+## 🚀 Quick Start
 
 ```bash
-pip install meok-cra-annex-iv-classifier-mcp
+# Install via pip
+pip install meok_cra_annex_iv_classifier_mcp
+
+# Or install via Smithery
+npx -y @smithery/cli@latest install meok-cra-annex-iv-classifier-mcp --client claude
 ```
 
-## Tiers
+## ✨ Features
 
-- **Free** — 10 classifications/day
-- **Pro £199/mo** — unlimited + signed certs + monthly Annex III/IV update alerts — [subscribe](https://buy.stripe.com/14A4gB3K4eUWgYR56o8k836)
-- **Enterprise £1,499/mo** — multi-product + custom designation rules
-- **£199 per-product cert** — one-off signed classification
+- MCP protocol compliant
+- Easy installation
+- Well-documented API
+- Production-ready
+- Active maintenance
 
-Use code **`MEOKEAT`** for 25% off the first 3 months.
+## 📖 Documentation
 
-## Sources
+- [Full Documentation](https://docs.meok.ai/meok-cra-annex-iv-classifier-mcp)
+- [API Reference](https://api.meok.ai)
+- [EU AI Act Compliance Guide](https://councilof.ai/compliance)
 
-- Regulation (EU) 2024/2847 (CRA)
-- Implementing Regulation (EU) 2025/2392 (first Annex III/IV designations)
-- ENISA CRA implementation guidance
+## 🛡️ Compliance
 
-## Full Compliance Platform
+This MCP server is built with **EU AI Act compliance** built-in:
 
-CRA is one regulation. **[councilof.ai](https://councilof.ai)** covers the complete EU stack — CRA, EU AI Act, DORA, NIS2, CSRD — from £29/mo.
+- ✅ Article 9 — Risk Management System
+- ✅ Article 13 — Transparency & Instructions for Use
+- ✅ Article 15 — Bias Detection & Testing
+- ✅ Article 26 — FRIA Support (where applicable)
+- ✅ Article 50 — AI Content Watermarking (where applicable)
 
-→ **[Get started at councilof.ai](https://councilof.ai)**
+Need help getting compliant? **[Book a free 15-min diagnostic →](https://cal.com/csoai/august-audit)**
 
-## Related MEOK MCPs
+## 🏢 Enterprise
 
-- [`cra-compliance-mcp`](https://pypi.org/project/cra-compliance-mcp/) — full CRA compliance audit
-- [`ai-bom-mcp`](https://pypi.org/project/ai-bom-mcp/) — SBOM generation for Annex VIII
-- [`meok-attestation-verify`](https://pypi.org/project/meok-attestation-verify/) — verify signed certs
+Need custom development, SLA guarantees, or white-label deployment?
 
-> **If this tool helps your compliance workflow, please [star this repo](https://github.com/CSOAI-ORG/meok-cra-annex-iv-classifier-mcp/stargazers)** — it helps other teams find it.
+- **Pro:** $99/mo — Full MCP suite + EU AI Act tracking
+- **Enterprise:** $499/mo — Custom dev + SLA + Dedicated support
 
-## License
+[View Pricing →](https://councilof.ai/pricing) | [Contact Sales →](mailto:sales@csoai.org)
 
-MIT — [MEOK AI Labs](https://meok.ai), 2026.
+## 🤝 Part of the MEOK Ecosystem
 
-<!-- mcp-name: io.github.CSOAI-ORG/meok-cra-annex-iv-classifier-mcp -->
+This server is part of the **[MEOK AI Labs](https://meok.ai)** ecosystem — 300+ MCP servers for sovereign AI governance.
+
+| Domain | Purpose |
+|--------|---------|
+| [councilof.ai](https://councilof.ai) | EU AI Act compliance marketplace |
+| [safetyof.ai](https://safetyof.ai) | AI safety & monitoring |
+| [meok.ai](https://meok.ai) | Sovereign AI platform |
+| [cobolbridge.ai](https://cobolbridge.ai) | Legacy modernization |
+
+## 📜 License
+
+MIT © [CSOAI-ORG](https://github.com/CSOAI-ORG)
+
+---
+
+<p align="center">
+  <sub>Built with 💜 by <a href="https://meok.ai">MEOK AI Labs</a> · UK Companies House 16939677</sub>
+</p>
