@@ -35,7 +35,7 @@ npx -y @smithery/cli@latest install meok-cra-annex-iv-classifier-mcp --client cl
 - Production-ready
 - Active maintenance
 - **Free** — 10 classifications/day
-- **Pro £199/mo** — unlimited + signed certs + monthly Annex III/IV update alerts — [subscribe](https://buy.stripe.com/00wfZjcgAeUW4c5cyQ8k90K)
+- **Pro £199/mo** — unlimited + signed certs + monthly Annex III/IV update alerts — [subscribe](https://buy.stripe.com/5kQ6oJ0xS3ce8sl7ew8k91j)
 - **Enterprise £1,499/mo** — multi-product + custom designation rules
 - **£199 per-product cert** — one-off signed classification
 
@@ -111,9 +111,9 @@ Free tier: 10 calls/day per MCP. Pro tier (£79/mo): unlimited + cryptographical
 
 | Tier | Price | What you get | Stripe |
 |---|---|---|---|
-| Smoke test | **£1** | Signed sample MCP-Hardening report + Article 50 PDF | <https://buy.stripe.com/dRmcN75ScdQS7oh1Uc8k90U> |
-| Quick Kit | **£9** | EU AI Act Article 50 implementation guide (C2PA + EU-Icon) | <https://buy.stripe.com/cNi00la8s1460ZT0Q88k90V> |
-| Founder Call | **£29** | 30-min 1-on-1 with the founder | <https://buy.stripe.com/8x228ta8s6oqbExaqI8k90W> |
+| Smoke test | **£1** | Signed sample MCP-Hardening report + Article 50 PDF | <https://buy.stripe.com/5kQ6oJ0xS3ce8sl7ew8k91j> |
+| Quick Kit | **£9** | EU AI Act Article 50 implementation guide (C2PA + EU-Icon) | <https://buy.stripe.com/5kQ6oJ0xS3ce8sl7ew8k91j> |
+| Founder Call | **£29** | 30-min 1-on-1 with the founder | <https://buy.stripe.com/5kQ6oJ0xS3ce8sl7ew8k91j> |
 
 > Refundable. UK Stripe — VAT-clean. Builds on the 81-MCP MEOK fleet.
 > Verify any signed report at <https://meok.ai/verify>.
