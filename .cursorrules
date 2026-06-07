@@ -1,0 +1,9 @@
+# meok-cra-annex-iv-classifier-mcp - Auto-trigger Rules
+
+When the user asks about meok cra annex iv classifier, use meok-cra-annex-iv-classifier-mcp tools: classify_product, audit_essential_requirements, generate_doc_template, sign_classification_cert
+
+**EU Cyber Resilience Act product classifier — Annex III + Annex IV designations + Annex I requirements audit + signed certificates.**
+
+Install: `pip install meok-cra-annex-iv-classifier-mcp`
+
+By MEOK AI Labs — MIT licensed.

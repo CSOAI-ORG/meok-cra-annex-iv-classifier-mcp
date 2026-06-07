@@ -1,0 +1,33 @@
+# meok-cra-annex-iv-classifier-mcp
+# **EU Cyber Resilience Act product classifier — Annex III + Annex IV designations + Annex I requirements audit + signed certificates.**
+
+## Install
+```bash
+pip install meok-cra-annex-iv-classifier-mcp
+```
+
+## Auth & Rate Limits
+- Free tier: 10 calls/day. No API key required.
+- Pro tier (£79/mo): unlimited + signed attestations.
+- Enterprise (£1,499/mo): white-label.
+
+## Tools
+
+### `classify_product`
+Classify a product with digital elements (PDE) into the CRA class hierarchy.
+
+### `audit_essential_requirements`
+Audit a product against the 15 Annex I + II essential requirements.
+
+### `generate_doc_template`
+Generate the Annex VIII technical documentation skeleton for a given class.
+
+### `sign_classification_cert`
+Generate a HMAC-SHA256 signed CRA classification certificate (Pro/Enterprise).
+
+
+## Maintainer
+MEOK AI Labs · hello@meok.ai · https://meok.ai · MIT licensed
+
+## Pairs with
+Governance moat: pair this tool with any of MEOK's 38 governance MCPs (EU AI Act, DORA, NIS2, CRA, GDPR, ISO 42001, etc.) for full compliance coverage.

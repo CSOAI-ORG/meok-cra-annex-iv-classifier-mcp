@@ -1,0 +1,27 @@
+name: meok-cra-annex-iv-classifier-mcp
+description: 'MCP server: meok-cra-annex-iv-classifier-mcp'
+version: 1.0.5
+author: MEOK AI Labs
+homepage: https://safetyof.ai
+repository: https://github.com/MEOK-AI-Labs/meok-cra-annex-iv-classifier-mcp
+license: MIT
+categories:
+- compliance
+- governance
+tools:
+- name: classify_product
+  description: Classify a product with digital elements (PDE) into the CRA class hierarchy.
+- name: audit_essential_requirements
+  description: Audit a product against the 15 Annex I + II essential requirements.
+- name: generate_doc_template
+  description: Generate the Annex VIII technical documentation skeleton for a given
+    class.
+- name: sign_classification_cert
+  description: Generate a HMAC-SHA256 signed CRA classification certificate (Pro/Enterprise).
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+  - mcp>=1.0.0
+runtime:
+  python: '>=3.10'

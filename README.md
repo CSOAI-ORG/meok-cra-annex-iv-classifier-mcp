@@ -118,3 +118,28 @@ Free tier: 10 calls/day per MCP. Pro tier (£79/mo): unlimited + cryptographical
 
 <!-- BUY-LADDER:END -->
 
+
+
+## Configuration
+
+Add to your `claude_desktop_config.json` (Claude Desktop) or your MCP client config:
+
+```json
+{
+  "mcpServers": {
+    "meok-cra-annex-iv-classifier-mcp": {
+      "command": "uvx",
+      "args": ["meok-cra-annex-iv-classifier-mcp"]
+    }
+  }
+}
+```
+
+Or: `pip install meok-cra-annex-iv-classifier-mcp` then run the `meok-cra-annex-iv-classifier-mcp` command (stdio transport).
+
+## Examples
+
+Once configured, ask your assistant, for example:
+- "Use `classify_product` to …"
+- "Use `audit_essential_requirements` to …"
+- "Use `generate_doc_template` to …"
