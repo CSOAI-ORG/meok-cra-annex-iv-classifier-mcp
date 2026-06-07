@@ -1,0 +1,22 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "meok-cra-annex-iv-classifier-mcp",
+    "description": "EU Cyber Resilience Act product classifier MCP. Classifies PDEs into CRA hierarchy (default / Class",
+    "version": "1.1.5",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "meok-cra-annex-iv-classifier-mcp"
+      }
+    ],
+    "capabilities": [
+      "classify_product",
+      "audit_essential_requirements",
+      "generate_doc_template",
+      "sign_classification_cert"
+    ]
+  }
+}

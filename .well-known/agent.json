@@ -1,0 +1,59 @@
+{
+  "name": "meok-cra-annex-iv-classifier-mcp",
+  "description": "EU Cyber Resilience Act product classifier MCP. Classifies PDEs into CRA hierarchy (default / Class",
+  "url": "https://proofof.ai/scorecard/meok-cra-annex-iv-classifier-mcp.html",
+  "version": "1.1.5",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "classify_product",
+      "name": "Classify Product",
+      "description": "classify_product via meok-cra-annex-iv-classifier-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "audit_essential_requirements",
+      "name": "Audit Essential Requirements",
+      "description": "audit_essential_requirements via meok-cra-annex-iv-classifier-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "generate_doc_template",
+      "name": "Generate Doc Template",
+      "description": "generate_doc_template via meok-cra-annex-iv-classifier-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "sign_classification_cert",
+      "name": "Sign Classification Cert",
+      "description": "sign_classification_cert via meok-cra-annex-iv-classifier-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}
