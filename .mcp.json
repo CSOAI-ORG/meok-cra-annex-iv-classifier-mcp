@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "meok-cra-annex-iv-classifier-mcp": {
+      "command": "uvx",
+      "args": [
+        "meok-cra-annex-iv-classifier-mcp"
+      ]
+    }
+  }
+}
